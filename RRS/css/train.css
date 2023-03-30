@@ -1,0 +1,266 @@
+/*
+* This is not complete design, it needed to be fixed, especially rwd.
+*/
+
+/* basic style */
+body {
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto ", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/train-backround.jpeg);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* navbar */
+.navbar {
+  width: 100%;
+  height: auto;
+  background-color: #ff4b2b;
+}
+
+.logo {
+  padding-left: 20px;
+  margin-left: 0;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  display: inline-block;
+  margin: 0;
+}
+.nav {
+  display: inline-block;
+  margin: 0;
+}
+
+.navbar3 {
+  padding-bottom: 10px;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+/* nav links */
+.nav {
+  font-size: large;
+  padding: 0;
+  padding-right: 40px;
+  margin: 0;
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.navbar a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: whitesmoke;
+}
+
+/* if you want pull right nav links */
+.nav-right {
+  float: right;
+  line-height: 35px;
+}
+
+
+
+
+
+ul{
+    list-style-type: none;
+}
+ul li{
+    margin-bottom: 3%;
+    
+}
+ul li span{
+  
+    margin-top: 0%;
+    margin-left: 10px;
+}
+.titlefilter{
+  color: rgb(236, 70, 19);
+  text-transform: uppercase;
+  text-decoration: double;
+}
+ul li input{
+    border: 2px solid black;
+    border-radius: 20px;
+    zoom: 1.3;
+}
+.main
+{
+    /* background-color: rgb(102, 51, 51); */
+    position: absolute;
+    float: right;
+    margin-left: 10%;
+    margin-top: 1%;
+    height: 200%;
+    max-height: 90%;
+    width: 80%;
+    overflow-y: scroll;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#thumb-wrap {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 0%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  writing-mode: bt-lr;    /* IE */
+  -webkit-appearance: none;
+  background-color: rgb(207, 213, 233);
+ }
+#thumb-wrap::-webkit-scrollbar {
+  width: 33.2rem;
+ }
+#thumb-wrap::-webkit-scrollbar-button:horizontal:decrement {
+  width: 1.6rem;
+  height: 1.6rem;
+  background: url("https://cdn-ak.f.st-hatena.com/images/fotolife/O/O2_milk/20190228/20190228080158.png") no-repeat center center;
+  
+ }
+#thumb-wrap::-webkit-scrollbar-button:horizontal:increment {
+  width: 1.6rem;
+  height: 1.6rem;
+  background: url("https://cdn-ak.f.st-hatena.com/images/fotolife/O/O2_milk/20190228/20190228080155.png") no-repeat center center;
+  
+  
+ }
+ .maintrain{
+   position: relative;
+   /* background-color: white; */
+   height: 100%;
+   width: 100%;
+   border-radius: 3px;
+   
+   
+ }
+ .ultrains{
+   
+   position: relative;
+   background-color: white;
+   height: 95%;
+   width: 92%;
+   left: 1.8%;
+   border-radius: 15px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+
+
+.trains{
+    position: relative;
+    display: inline-block;
+    margin-left: 2%;
+   background-color: rgb(230, 230, 230);
+   height: 200px;
+   top: 20px;
+   right: 4%;
+   width: 100%;
+   /* border: 1px solid rgb(126, 121, 197); */
+   border-radius: 15px;
+   z-index: 0;
+}
+.trainname{
+  
+  margin-left: 0%;
+  color: black;
+
+}
+.traintime{
+  margin: 0%;
+  padding: 0%;
+  margin-left: 3%;
+  margin-top: 0%;
+  font-size: 16px;
+  margin-right: 2%;
+}
+.traintime1{
+  margin: 0%;
+  padding: 0%;
+  margin-left: 38%;
+  margin-top: 2%;
+  font-size: px;
+  margin-right: 2%;
+}
+.traindate{
+  margin: 0%;
+  padding: 0%;
+  margin-left: 47%;
+  padding-bottom: 2%;
+  
+  
+}
+.traindtime{
+  margin-top: 2%;
+  margin-left: 2%;
+  font-size: 16px;
+  
+}
+.span1{
+  margin: 2%;
+}
+.design
+{
+  color: rgb(5, 10, 10);
+  font-size: 20px;
+  transition: font-size 0.2s;
+  transition: color 0.2s;
+}
+.design:hover{
+  font-size: 21px;
+  color: rgb(73, 35, 211);
+}
+.acbutton{
+  margin-top: 1.3%;
+  background-color: rgb(190, 255, 255);
+  margin-left: 3.5%;
+  float: left;
+	height: 107px;
+  width: 150px;
+	color: #050405;
+  border-radius: 10%;
+  white-space: normal !important;
+  cursor: pointer;
+}
+.acbutton1{
+  background-color: rgb(190, 255, 255);
+  margin-top: 3%;
+  margin-right: 1%;
+  margin-left: 20%;
+  border-radius: 10%;
+  float: left;
+	height: 107px;
+  width: 150px;
+	color: #080808;
+  white-space: normal !important;
+  cursor: pointer;
+}
+.express{
+  position: relative;
+  left: 10%;
+  color: #ff4b2b;
+}
+.tname{
+  margin-left: 15%;
+}
+
+
